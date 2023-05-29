@@ -5,3 +5,4 @@ class orang {
 public:
 	int umr;
 };
+
