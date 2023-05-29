@@ -3,6 +3,11 @@ using namespace std;
 
 class orang {
 public:
-	int umr;
-};
+	int umur;
 
+	orang(int pUmur) :
+		umur(pUmur)
+	{
+		cout << "orang dibuat dengan umur " << umur << "\n" << endl;
+	}
+};
